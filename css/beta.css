@@ -1,0 +1,36 @@
+html,
+body {
+  background-color: DarkBlue;
+}
+.title {
+  text-align: center;
+}
+a {
+  background-color: Red;
+  border-style: outset;
+  border-color: Red FireBrick FireBrick Red;
+  border-radius: 8.5px 1.75px 8.5px 1.75px;
+}
+/* Unvisited Link */
+a:link {
+  color: Black;
+}
+/* Visited Link */
+a:visited {
+  color: SlateBlue;
+}
+/* hover over link */
+a:hover {
+  border-style: inset;
+  border-color: FireBrick Red Red FireBrick;
+  border-radius: 1.75px 8.5px 1.75px 8.5px;
+  color: White;
+}
+/* Selected Link */
+a:active {
+  border-style: inset;
+  border-color: DarkGreen Black Black DarkGreen;
+  border-radius: 1.75px 8.5px 1.75px 8.5px;
+  color: Green;
+  background-color: Black;
+}
