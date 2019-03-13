@@ -2,7 +2,7 @@ html,
 body {
   background-color: DarkBlue;
 }
-h1 {
+.title {
   text-align: center;
 }
 a {
