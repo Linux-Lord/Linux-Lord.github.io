@@ -1,4 +1,10 @@
 html,
 body {
-background-color: Red;
+  background-color: Red;
+}
+h1 {
+  text-align: center;
+  border-style:inset;
+  border-color: Purple DarkBlue DarkBlue Purple;
+  border-radius: 8.5px 1.75px 8.5px 1.75px;
 }
