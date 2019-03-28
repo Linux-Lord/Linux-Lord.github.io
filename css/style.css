@@ -5,6 +5,13 @@ body {
 .title {
   text-align: center;
 }
+.redbox {
+  border: 3.75px;
+  border-style: outset;
+  border-color: DarkBlue Blue DarkBlue Blue;
+  border-radius: 8.25px 0px 8.25px 0px;
+  border-padding: 3px;
+}
 a {
   background-color: Red;
   border-style: outset;
