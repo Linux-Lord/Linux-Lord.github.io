@@ -1,9 +1,15 @@
 html,
+/* in-built elements */
 body {
   background-color: DarkBlue;
 }
+.paragraph {
+  background-color: Purple;
+  border-radius: 8px 0px 8px 0px;
+}
 .title {
   text-align: center;
+  color: Green;
 }
 .redbox {
   border: 3.75px;
@@ -12,6 +18,7 @@ body {
   border-radius: 8.25px 0px 8.25px 0px;
   border-padding: 3px;
 }
+/* Link */
 a {
   background-color: Red;
   border-style: outset;
