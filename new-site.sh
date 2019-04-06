@@ -5,13 +5,17 @@ echo "e.g. y/n"
 read y_n
 if [[ $y_n = "y" || $y_n = "Y" ]]
 then
-	mkdir $desired_dir
 	echo "What directory would you like to use?"
 	read desired_dir
 	mkdir $desired_dir
+elif
+	[[ $y_n = "n" || $y_n = "N" || $y_n = "" ]]
+then
+	echo "You made it fail!"
+	exit 1
 fi
 read y_n
-export working_dir="${y_n}" new_site="${working_dir}/index.html"
+export working_dir="${desired_dir}" new_site="${working_dir}/index.html"
 sleep .1
 cat template.html >> "$new_site"
 exit 0
