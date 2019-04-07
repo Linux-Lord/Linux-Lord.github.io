@@ -1,50 +1,11 @@
 html,
-/* in-built elements */
+/* automatically make body Purple */
 body {
-  background-color: DarkBlue;
-}
-.paragraph {
   background-color: Purple;
-  border-radius: 8px 0px 8px 0px;
 }
 .title {
-  text-align: center;
-  color: Green;
-}
-.redbox {
-  border: 3.75px;
-  border-style: outset;
-  border-color: DarkBlue Blue DarkBlue Blue;
-  border-radius: 8.25px 0px 8.25px 0px;
-  border-padding: 3px;
-}
-/* Link */
-a {
-  background-color: Purple;
-  border-style: outset;
-  border-color: Red FireBrick FireBrick Red;
-  border-radius: 8.5px 1.75px 8.5px 1.75px;
-}
-/* Unvisited Link */
-a:link {
-  color: Black;
-}
-/* Visited Link */
-a:visited {
-  color: SlateBlue;
-}
-/* hover over link */
-a:hover {
-  border-style: inset;
-  border-color: FireBrick Red Red FireBrick;
-  border-radius: 1.75px 8.5px 1.75px 8.5px;
-  color: White;
-}
-/* Selected Link */
-a:active {
-  border-style: inset;
-  border-color: DarkGreen Black Black DarkGreen;
-  border-radius: 1.75px 8.5px 1.75px 8.5px;
-  color: Green;
   background-color: Black;
+  text-align: center;
+  color: Red;
+  font-size: 225%;
 }
