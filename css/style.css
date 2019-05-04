@@ -1,11 +1,16 @@
 html,
 /* automatically make body Purple */
-body {
-  background-color: Purple;
+  body {
+      background-color: DarkPurple;  
 }
-.title {
-  background-color: Black;
-  text-align: center;
-  color: Red;
-  font-size: 225%;
+  .spining-box {
+      font-size: 24px;
+      background-color: DarkRed;
+      color: Indigo;  
 }
+  .title {
+    background-color: Black;
+    text-align: center;
+    font-size: 225%;
+}
+
