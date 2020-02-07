@@ -1,0 +1,7 @@
+.fhead {
+  background-color: #0033cc;
+  color: #00ff00;
+}
+.bg-rasta {
+  background-image: linear-gradient(to right, red, gold, green);
+}
